@@ -16,6 +16,7 @@ public class Book {
     private Set<Author> authors = new HashSet<>();
 
     public Book(){
+        System.out.println("Hello");
 
     }
     public Book(String title,String isbn,String publisher){
